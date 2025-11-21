@@ -5,6 +5,6 @@ sudo mkdir gold
 cd gold/
 sudo git clone https://github.com/krishna1369/Gold_Site_Ecommerce.git
 cd Day4-code/
-sudo docker build -t react-microk8s -f golddockerfile .
-sudo docker tag react-microk8s:latest krishna1369/react-microk8s:latest ##make sure you did docker login
-sudo docker push krishna1369/react-microk8s:latest
+sudo docker build -t react-image -f golddockerfile .
+sudo docker tag react-image:latest krishna1369/react-repo:latest ##make sure you did docker login
+sudo docker push krishna1369/react-repo:latest
