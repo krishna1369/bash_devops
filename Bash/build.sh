@@ -4,7 +4,7 @@ sudo rm -r gold ## these steps are not recommened instead you can modify script 
 sudo mkdir gold
 cd gold/
 sudo git clone https://github.com/krishna1369/Gold_Site_Ecommerce.git
-cd Day4-code/
+cd Gold_Site_Ecommerce/
 sudo docker build -t react-image -f golddockerfile .
 sudo docker tag react-image:latest krishna1369/react-repo:latest ##make sure you did docker login
 sudo docker push krishna1369/react-repo:latest
